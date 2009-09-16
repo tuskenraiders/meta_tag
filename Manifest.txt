@@ -7,6 +7,7 @@ lib/meta_tag.rb
 lib/meta_tag/page_definition.rb
 lib/meta_tag/tag.rb
 lib/meta_tag/title_tag.rb
+meta_tag.gemspec
 script/console
 script/destroy
 script/generate
