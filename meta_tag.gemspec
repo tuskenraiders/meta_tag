@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{FIX (describe your package)}
   s.email = ["dev@pkw.de"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/meta_tag.rb", "lib/meta_tag/page_definition.rb", "lib/meta_tag/tag.rb", "lib/meta_tag/title_tag.rb", "meta_tag.gemspec", "script/console", "script/destroy", "script/generate", "test/page_definition_test.rb", "test/tag_test.rb", "test/test_helper.rb", "test/title_tag_test.rb", ".gemtest"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/meta_tag.rb", "lib/meta_tag/page_definition.rb", "lib/meta_tag/tag.rb", "lib/meta_tag/title_tag.rb", "meta_tag.gemspec", "script/console", "script/destroy", "script/generate", "test/page_definition_test.rb", "test/tag_test.rb", "test/test_helper.rb", "test/title_tag_test.rb"]
   s.homepage = %q{http://github.com/#{github_username}/#{project_name}}
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
