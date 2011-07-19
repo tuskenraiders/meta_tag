@@ -46,7 +46,7 @@ module MetaTag
     def to_tags
       html = []
       VALID_TAGS.each { |t| html << send(t).to_tag  unless send(t).to_s.blank?}
-      html.join("\n")
+      html.join("\n").html_safe
     end
   
   end

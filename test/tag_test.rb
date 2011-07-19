@@ -14,6 +14,7 @@ class TagTest < Test::Unit::TestCase
     assert_equal "pkw.de", mt.content
     
     assert_equal "<meta name=\"title\" content=\"pkw.de\" />", mt.to_tag
+    assert mt.to_tag.html_safe?
   end
   
   def test_have_to_s

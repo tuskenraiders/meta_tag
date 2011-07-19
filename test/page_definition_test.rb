@@ -28,6 +28,7 @@ class PageDefinitionTest < Test::Unit::TestCase
     mpd.append_title = true
     mpd.description = "foo bar"
     assert_equal "<title>meta_tag title - foo</title>\n<meta name=\"description\" content=\"foo bar\" />\n<meta name=\"robots\" content=\"index, nofollow\" />\n<meta name=\"keywords\" content=\"key, word\" />", mpd.to_tags
+    assert mpd.to_tags.html_safe?
   end
   
   def test_could_change_title_without_affecting_appended_title

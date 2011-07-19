@@ -18,6 +18,7 @@ class TitleTagTest < Test::Unit::TestCase
     
     tt.content = "HansWurst"
     assert_equal "<title>HansWurst - always append this</title>", tt.to_tag
+    assert tt.to_tag.html_safe?
   end
   
   def test_have_content_and_activate_and_deactivate_append_title

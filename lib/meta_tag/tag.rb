@@ -11,7 +11,7 @@ module MetaTag
     end
   
     def to_tag
-      "<meta #{http_equiv ? "http_equiv" : "name"}=\"#{name}\" content=\"#{content}\" />"
+      "<meta #{http_equiv ? "http_equiv" : "name"}=\"#{name}\" content=\"#{content}\" />".html_safe
     end
   
     def to_s
